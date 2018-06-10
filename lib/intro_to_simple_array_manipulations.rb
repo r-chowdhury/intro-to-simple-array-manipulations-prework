@@ -13,4 +13,8 @@ def using_shift(arr)
   return arr.slice
 end
 
-def shifts_with_args()
+def shifts_with_args(arr, index)
+  return arr.shift(index)
+end
+
+def using_concat
