@@ -2,6 +2,10 @@ def using_push(arr, element)
   return arr.push(element)
 end 
 
+def using_unshift(arr, string)
+  return arr.unshift(string)
+end
+
 def using_pop(arr)
   return arr.pop
 end
