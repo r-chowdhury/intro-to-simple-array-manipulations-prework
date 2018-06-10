@@ -8,3 +8,7 @@ def using_pop(arr)
 def pop_with_args(arr, index)
   return arr.pop(index)
 end
+
+def using_shift(arr)
+  return arr.slice
+end
