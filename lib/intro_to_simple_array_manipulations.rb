@@ -12,3 +12,5 @@ end
 def using_shift(arr)
   return arr.slice
 end
+
+def shifts_with_args()
