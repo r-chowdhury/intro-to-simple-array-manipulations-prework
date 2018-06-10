@@ -19,7 +19,8 @@ def using_shift(arr)
 end
 
 def shifts_with_args(arr)
-  return arr.shift(2)
+  arr.shift(2)
+  return arr
 end
 
 def using_concat(arr1, arr2)
